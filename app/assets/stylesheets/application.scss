@@ -4,9 +4,11 @@
 // Graphical variables
 
 // CSS pages
+@import "pages/home";
 
 // CSS components
-// @import "components/banner";
+@import "components/banner";
+@import "components/btn";
 
 // Font type
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
