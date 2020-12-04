@@ -1,1 +1,27 @@
-<h1>Hello</h1>
+<div class="container-fluid mt-5">
+  <div class="row">
+    <div class="col align-self-start pt-5">
+      <h1>Beatriz Longley<span id="home-title-stop">.</span></h1>
+      <div id="home-banner-link">
+        <%= image_tag "circleII.jpg", :height => '50px', :width => "50px", id: "home-banner-circle" %>
+        <%= link_to "my story | my journey", root_path(@root, :anchor => "my-story"), id: "home-banner-btn" %>
+      </div>
+    </div>
+    <div class="col align-self-center">
+      <%= image_tag "stone.jpg", :height => '100%', :width => "100%" %>
+    </div>
+    <div class="col align-self-center">
+      <%= image_tag "mountain_bw.jpg", :height => '100%', :width => "100%" %>
+    </div>
+  </div>
+</div>
+
+<div id="container-space"></div>
+
+<div class="container mt-5" id="my-story">
+  <div class="row">
+    <div class="col">
+      <h2>my story</h2>
+    </div>
+  </div>
+</div>
