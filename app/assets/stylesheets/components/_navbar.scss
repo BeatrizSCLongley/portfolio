@@ -1,0 +1,31 @@
+nav {
+  height: 207px;
+  width: 50px;
+  background-color: rgba(90, 132, 84, 0.8);
+  flex-direction: column;
+}
+
+.fixed-top {
+  left: 1375px !important;
+}
+
+.fab {
+  font-size: 31px;
+  color: rgba(255, 255, 255, 0.4);
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+.fa-github-square{
+  position: relative;
+  top: 86px;
+  left: -4px;
+}
+
+.fa-linkedin {
+  position: relative;
+  top: 108px;
+  left: -4px;
+}
