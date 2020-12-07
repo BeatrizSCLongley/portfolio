@@ -10,6 +10,18 @@
   margin-bottom: 50px;
 }
 
+.fa-angle-double-down {
+  font-size: 100px;
+  color: rgba(90, 132, 84, 0.8);
+  position: relative;
+  bottom: 199px;
+  left: 79px;
+
+  &:hover {
+    color: rgba(255, 255, 255, 0.4);
+  }
+}
+
 // -------------------------------Project display ------------------------------
 // Dining Room
 #project-img-dr {
