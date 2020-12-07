@@ -4,27 +4,103 @@
   margin: 15px;
 }
 
-// Project display
-.project-img {
-  display: flex;
-  text-align: center;
-  align-items: center;
+#projects-background {
+  background-color: rgb(209, 219, 208);
+  padding: 50px 0px;
+  margin-bottom: 50px;
+}
+
+// -------------------------------Project display ------------------------------
+// Dining Room
+#project-img-dr {
+  position: relative;
   height: 200px;
   width: 100%;
-  background-image: url('stone.jpg');
-  background-size: cover;
+  box-shadow: 29px 29px 74px #b8c2b7,
+             -29px -29px 74px #eaf6e9;
 
-  &:hover {
-    opacity: 0.5;
+  &::before {
+    content: '';
+    background-image: url('dining_room.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+  }
+}
+
+// teamup
+#project-img-tu {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  box-shadow: 29px 29px 74px #b8c2b7,
+             -29px -29px 74px #eaf6e9;
+
+  &::before {
+    content: '';
+    background-image: url('teamup.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+  }
+}
+
+// psychIO
+#project-img-pi {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  box-shadow: 29px 29px 74px #b8c2b7,
+             -29px -29px 74px #eaf6e9;
+
+  &::before {
+    content: '';
+    background-image: url('stone.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
   }
 }
 
 .github-link {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 100%;
+  width: 100%;
+
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  position: relative;
 
   &:hover {
     text-decoration: none;
     color: black;
+    font-weight: bold;
   }
+}
+
+// ------------------------------------------
+.project-info {
+  margin-top: 55px;
 }
 
 .project-title {
@@ -36,6 +112,8 @@
 
 .project-link {
   color: black;
+  font-weight: bold;
+  font-size: 18px;
 
   &:hover {
     color: white;
