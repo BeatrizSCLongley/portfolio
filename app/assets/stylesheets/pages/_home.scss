@@ -116,9 +116,13 @@
 }
 
 .project-title {
+  width: 100%;
+  padding: 6px;
+  background-color: rgba(90, 132, 84, 0.8);
+
   &:hover {
-    background-color: rgba(90, 132, 84, 0.8);
-    width: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: black;
   }
 }
 
@@ -128,7 +132,7 @@
   font-size: 18px;
 
   &:hover {
-    color: white;
+    color: black;
     text-decoration: none;
   }
 }
